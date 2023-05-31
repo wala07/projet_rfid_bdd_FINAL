@@ -50,19 +50,11 @@ if(isset($_GET["to"]) and isset($_GET["ideleve"]) and isset($_GET["to"]) ){
         setideleve($_GET["ideleve"],$_GET["idcours"]);
 
     }
-
-    
-    
     
 }
-
-
 ?>
-
-
-
-
 <?php
+
 include("../first.php");
 $ref = $_SERVER['HTTP_REFERER'];
 ?>
@@ -86,19 +78,13 @@ $ref = $_SERVER['HTTP_REFERER'];
 function verif(){
     
        window.location.href = "<?php echo $ref; ?>";
-    
-        
-    
+       
 }
 setTimeout(function(){
     
-    setTimeout(
-        verif,100
-    )
+    setTimeout( verif,100  )
     ;
 }, 1000);
-
-
 
 </script>
 

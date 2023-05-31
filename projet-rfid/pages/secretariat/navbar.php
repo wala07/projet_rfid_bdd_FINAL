@@ -10,9 +10,9 @@
                 ?></a>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="accueil.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">accueil</a>
-                        <a href="listeleve.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">listes étudiants</a>
-                        <a href="tableautemps.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">emploi du temps</a>
+                        <a href="accueil.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+                        <a href="listeleve.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Listes des étudiants</a>
+                        <a href="tableautemps.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Emploi du temps</a>
                     </div>
                 </div>
             </div>
@@ -31,9 +31,9 @@
     -->
     <div class="hidden md:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        <a href="accueil.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">accueil</a>
-       <a href="listeleve.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">list d'eleve</a>
-       <a href="tableautemps.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">emploi de temp</a>
+        <a href="accueil.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+       <a href="listeleve.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Listes des étudiants</a>
+       <a href="tableautemps.php" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Emploi du temps</a>
         </div>
     </div>
 </nav>

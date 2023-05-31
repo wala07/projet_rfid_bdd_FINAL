@@ -58,7 +58,7 @@ function etat($db,$ncarte,$idcours,$ideleve){
       }
     }
 }
-
+//--------------------------------------------------------------------------------------------------------------------------------------
 include("../../services/db/db.php");
 if(!isset($_GET["class"]) or !isset($_GET["idcours"]))
 {

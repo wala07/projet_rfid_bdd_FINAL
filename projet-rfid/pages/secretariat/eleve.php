@@ -23,10 +23,6 @@ function changerp(t){
   }
   }
   
-  
-  
-  
- 
 }
 </script>
 <?php

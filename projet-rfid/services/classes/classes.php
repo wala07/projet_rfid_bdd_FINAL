@@ -20,13 +20,7 @@ function getlistusers($db){
         array_push($nom,$s);
         
     }
-    /*
-    for($i=0;$i<count($t);$i++){
-        echo "<h1>".$t[$i]."</h1>";
-        for($j=0;$j<count($nom[$i]);$j++){
-            echo "<p>".$nom[$i][$j]."</p>";
-        }
-    }*/
+ 
     $info= [$t,$nom];
     $db->close();
     return $info;

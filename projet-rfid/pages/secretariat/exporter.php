@@ -18,7 +18,8 @@ $reqinfo="SELECT `nom_etudiant`,`prenom_etudiant`,`nom_classe` FROM `etudiant` e
 $reqnbcours="SELECT count(`id_cours`) FROM `cours` WHERE `id_classe`=(SELECT id_classe FROM `etudiant`
 where id_etudiant=$id) and debut < (select CURDATE())";
 $reqabb="select * from presence where idcours  in (SELECT `id_cours` FROM `cours` WHERE `id_classe`=(SELECT id_classe FROM `etudiant`
-where id_etudiant=$id)) and idcarte=(select `id_carte` from carte_rfid WHERE `numero_carte`=(SELECT `numero_carte` FROM `etudiant` WHERE `id_etudiant`=$id));";
+where id_etudiant=$id)) and idcarte=(select `id_carte` from carte_rfid WHERE `numero_carte`
+=(SELECT `numero_carte` FROM `etudiant` WHERE `id_etudiant`=$id));";
 
 
 

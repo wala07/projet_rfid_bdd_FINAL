@@ -13,7 +13,7 @@ function changename($n){
         $id=$_SESSION["id"];
         $req2="UPDATE `utilisateur`  set `nom_utilisateur`='$n' WHERE `id_utilisateur`=$id";
         $res=$db->excute($req2);
-    return "le nom est change";    }
+    return "le nom est changer";    }
 
 
     
@@ -28,7 +28,7 @@ if(isset($_POST["name"])){
 }
 if(isset($_POST["pass"])){
 
-    echo "le mdp est change";
+    echo "le mot de passe est change";
     exit();
 }
 
@@ -88,15 +88,8 @@ function sendData(data) {
 
 
 
-
-
-
-
-
-
-
 function changepass(){
-v=prompt("nv mot de pass:")
+v=prompt("Nouveaux mot de pass:")
 if(v!=null && v.length>=4){
         
         sendData({pass:v});
@@ -104,7 +97,7 @@ if(v!=null && v.length>=4){
 }
 function changename(){
     
-    v=prompt("nv nom:")
+    v=prompt("Nouveaux nom:")
     
     if(v!=null && v.length>3){
         
@@ -141,7 +134,7 @@ c=document.getElementById("r");
      
     function show(){ //loading attente quoi / contraire
         //dellloading()
-        const string = `<?php include("navbar.php");?><div class="flex  items-center justify-center"><div class="bg-white p-8 rounded shadow-md w-full "><h2 class="text-2xl font-bold mb-6">changer le donne</h2><button onclick='changename()' class="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"> change le nom</button><button onclick="changepass()" class="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">change le mot de passe</button>`;
+        const string = `<?php include("navbar.php");?><div class="flex  items-center justify-center"><div class="bg-white p-8 rounded shadow-md w-full "><h2 class="text-2xl font-bold mb-6">Gérer votre compte</h2><button onclick='changename()' class="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Changer Mail</button><button onclick="changepass()" class="ml-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Changer mot de passe </button>`;
         c=document.getElementById("r");
         c.innerHTML=string;
         

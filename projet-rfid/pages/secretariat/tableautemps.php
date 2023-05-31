@@ -49,18 +49,18 @@ else{
 <center>
     <form action="" type="POST" onsubmit="sub()" >
 <table>
-    <th><label for="countries" class="block mb-2 text-sm font-medium text-black-900 dark:text-black">Niveau</label>
+    <th><label for="countries" class="block mb-2 text-sm font-medium text-white-900 white:text-white">Niveau</label>
 <div class="w-36">
-<select id="niveau" name="niveau" onchange="setclass(this)"  class="w-36 bg-indigo-600 border border-indigo-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-600 dark:border-indigo-600 dark:placeholder-indigo-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+<select id="niveau" name="niveau" onchange="setclass(this)"  class="w-36 bg-indigo-600 border border-indigo-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 white:bg-indigo-600 white:border-indigo-600 white:placeholder-indigo-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
   <option selected value="">-----</option>
   
 </select>
 </div>
 </th>
 <th>
-<label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">classe</label>
+<label for="countries" class="block mb-2 text-sm font-medium text-gray-900 white:text-white">classe</label>
 <div class="w-36">
-<select id="class"  name="class"class="w-36 bg-indigo-600 border border-indigo-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-600 dark:border-indigo-600 dark:placeholder-indigo-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+<select id="class"  name="class"class="w-36 bg-indigo-600 border border-indigo-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 white:bg-indigo-600 white:border-indigo-600 white:placeholder-indigo-400 white:text-white white:focus:ring-blue-500 white:focus:border-blue-500">
   <option selected value="">-----</option>
   
 </select>
@@ -94,7 +94,7 @@ exit();
 <p class="text-3xl mt-20"><?php echo $_GET["class"]; ?></p></center>
 <div class="">
 <button class="px-3 py-2 text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 rounded w-50 absolute left-0">
-  <a href="?niveau=<?php echo $_GET["niveau"];?>&class=<?php echo $_GET["class"];?>&nb=<?php echo $s-1;?>">précédent</a>
+  <a href="?niveau=<?php echo $_GET["niveau"];?>&class=<?php echo $_GET["class"];?>&nb=<?php echo $s-1;?>">Précédent</a>
 </button>
 
 <button class="px-3 py-2 text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 rounded w-50 absolute right-0">
